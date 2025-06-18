@@ -262,6 +262,20 @@ export default function Home() {
           100% { transform: rotate(360deg); }
         }
       `}</style>
+      {/* Footer */}
+      <footer className="w-full flex justify-center mt-8 mb-2">
+        <span className="text-zinc-500 dark:text-zinc-400 text-base">
+          Made with <span className="text-red-500">♥</span> by{' '}
+          <a
+            href="https://www.linkedin.com/in/pramod4lk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-blue-600"
+          >
+            pramod4lk
+          </a>.
+        </span>
+      </footer>
     </div>
   );
 }
